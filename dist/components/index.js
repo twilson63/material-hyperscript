@@ -8,7 +8,14 @@ var isSelector =
   function ( param ) { return isValidString(param) && (startsWith(param, '.') || startsWith(param, '#')); }
 
 var TAGS = {
-  badge: 'div.material-icons.mdl-badge'
+  badge: 'div.material-icons.mdl-badge',
+  fab: 'button.mdl-button.mdl-js-button.mdl-button--fab',
+  btn: 'button.mdl-button.mdl-js-button',
+  iconBtn: 'button.mdl-button.mdl-js-button.mdl-button--icon',
+  miniFab: 'button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab',
+  textField: 'div.mdl-textfield.mdl-js-textfield',
+  textFieldInput: 'input.mdl-textfield__input',
+  textFieldLabel: 'label.mdl-textfield__label'
 }
 
 var node = function ( h ) { return function ( tagName ) { return function (first) {
