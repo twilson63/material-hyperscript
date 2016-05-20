@@ -10,7 +10,7 @@ Hyperscript can be used in several frameworks: CycleJS, Mercury, React - or stan
 
 ## Example
 
-```
+``` js
 var { h, create, diff, patch } = require('virtual-dom')
 var {layout, header, headerRow, title,
   space, nav, navLink, content} = require('material-hyperscript')(h)
@@ -47,7 +47,7 @@ npm install material-hyperscript --save
 
 index.html - head
 
-```
+``` html
 <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
 <script src="/node_modules/material-design-lite/material.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
