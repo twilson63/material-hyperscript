@@ -1,6 +1,6 @@
 {
   "name": "material-hyperscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Material Design Lite is a project that implements the Material Design:",
   "main": "dist/index.js",
   "scripts": {
