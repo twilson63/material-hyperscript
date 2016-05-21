@@ -42,11 +42,27 @@ const TAGS = {
   header: 'header.mdl-layout__header',
   headerRow: 'div.mdl-layout__header-row',
   title: 'div.mdl-layout-title',
-  space: 'div.mdl-layout-space',
+  spacer: 'div.mdl-layout-spacer',
   nav: 'nav.mdl-navigation',
   navLink: 'a.mdl-navigation__link',
   drawer: 'div.mdl-layout__drawer',
-  content: 'main.mdl-layout__content'
+  content: 'main.mdl-layout__content',
+  grid: 'div.mdl-grid',
+  cell_1: 'div.mdl-cell.mdl-cell--1-col',
+  cell_2: 'div.mdl-cell.mdl-cell--2-col',
+  cell_3: 'div.mdl-cell.mdl-cell--3-col',
+  cell_4: 'div.mdl-cell.mdl-cell--4-col',
+  cell_5: 'div.mdl-cell.mdl-cell--5-col',
+  cell_6: 'div.mdl-cell.mdl-cell--6-col',
+  cell_7: 'div.mdl-cell.mdl-cell--7-col',
+  cell_8: 'div.mdl-cell.mdl-cell--8-col',
+  cell_9: 'div.mdl-cell.mdl-cell--9-col',
+  cell_10: 'div.mdl-cell.mdl-cell--10-col',
+  cell_11: 'div.mdl-cell.mdl-cell--11-col',
+  cell_12: 'div.mdl-cell.mdl-cell--12-col',
+  card: 'div.mdl-card',
+  cardTitle: 'div.mdl-card__title',
+  cardMenu: 'div.mdl-card__menu'
 }
 
 const node = h =>
