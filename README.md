@@ -13,7 +13,7 @@ Hyperscript can be used in several frameworks: CycleJS, Mercury, React - or stan
 ``` js
 var { h, create, diff, patch } = require('virtual-dom')
 var {layout, header, headerRow, title,
-  space, nav, navLink, content} = require('material-hyperscript')(h)
+  spacer, nav, navLink, content} = require('material-hyperscript')(h)
 
 document.body.appendChild(
   create(
@@ -21,7 +21,7 @@ document.body.appendChild(
       header([
         headerRow([
           title('Hello World'),
-          space(),
+          spacer(),
           nav([
             navLink(['Link 1']),
             navLink(['Link 2'])
